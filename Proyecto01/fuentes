@@ -1,0 +1,21 @@
+API:
+https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
+
+Videos consutados:
+
+https://www.youtube.com/watch?v=ClNP-lTzKgI
+https://www.youtube.com/watch?v=8Zq8BEhug1k
+https://www.youtube.com/watch?v=0P7QnIQDBJY
+https://www.youtube.com/watch?v=ZftcMsvhE48
+
+Paqueterias usadas:
+
+https://pandas.pydata.org/docs/getting_started/install.html
+https://docs.conda.io/en/latest/miniconda.html
+https://matplotlib.org/stable/users/installing/index.html
+
+Configuracion VS
+https://www.cursosgis.com/como-configurar-visual-studio-code-para-trabajar-con-pandas/
+
+Páginas consultadas:
+https://stackoverflow.com/questions/64302419/what-are-all-of-the-exceptions-that-pandas-read-csv-throw 
