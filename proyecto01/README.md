@@ -1,3 +1,4 @@
 #proyecto01
 Web Server
-prueba
+#Nota 
+deben compilar con venv/bin/python main.py
