@@ -9,9 +9,13 @@ pip install python-dotenv
 python -m pip install requests
 
 ##fuentes
+ocultar llave:
 https://github.com/theskumar/python-dotenv
+request:
 https://www.dataquest.io/blog/python-api-tutorial/
 
 ##videos de consulta 
-https://www.youtube.com/watch?v=YdgIWTYQ69A
-https://www.youtube.com/watch?v=nksauZe87Nw&t=221s
+ocultar llave:
+###https://www.youtube.com/watch?v=YdgIWTYQ69A
+sobre el request en openweather:
+##https://www.youtube.com/watch?v=nksauZe87Nw&t=221s

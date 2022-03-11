@@ -12,26 +12,23 @@ import os
 load_dotenv()  # take environment variables from .env.
 #Para ocultar la llave
 API_KEY = os.getenv("API_KEY")
-#API_KEY = "690105502b81dfb642de8266590f7300"
 
-
-
-    
-    
-    
-    #print(API_KEY)
-
-    #response = ""
 
 def request(lat,lon):
-    """ request """
-    #falta mandar excepcion en caso que se salga de cordenadas no eistentes
-    #Se hace la primera peticion de origen 
-    #Se hace la primera peticion de origen 
+    """ método que devuelve la respuesta del api """
+  
     response = requests.get(f"http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&APPID={API_KEY}&lang=sp&units=metric")
     return response
     #responseOne = requests.get(f"http://api.openweathermap.org/data/2.5/weather?lat={lat1}&lon={lon1}&APPID={API_KEY}&lang=sp&units=metric")
     #responseTwo = requests.get(f"http://api.openweathermap.org/data/2.5/weather?lat={lat2}&lon={lon2}&APPID={API_KEY}&lang=sp&units=metric")
+
+
+def requestGetJsons(lat,lon):
+    """ metodo que devuelve el json de la respuesta del request """
+
+    response = requests.get(f"http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&APPID=690105502b81dfb642de8266590f7300&lang=sp&units=metric")
+    return response.json()
+
 
 
 
@@ -100,5 +97,6 @@ def makeNRequestsAndGetWeather():
 
    
 
-make2RequestsAndGetWeather("19.43","-99","25.6714","-100.309")
+make2RequestsAndGetWeather("19.43","-89","25.6714","-100.309")
 
+requestGetJsons("19.43","-89")
