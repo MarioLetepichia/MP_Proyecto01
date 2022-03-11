@@ -1,3 +1,4 @@
+import pandas as pd
 import sys
 
 ###Archivo para hacer pruebas sobre python
