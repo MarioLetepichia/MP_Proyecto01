@@ -1,0 +1,28 @@
+API:
+https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
+
+Videos consutados:
+
+Python CSV files - with PANDAS:
+https://www.youtube.com/watch?v=ClNP-lTzKgI
+
+ ¿Cómo contar cuántas veces aparece un valor en una columna? | value_counts | Pandas| Python
+https://www.youtube.com/watch?v=8Zq8BEhug1k
+
+22- Pandas DataFrames: Writing/Saving as CSV
+https://www.youtube.com/watch?v=ZftcMsvhE48
+
+CSV Column To Python List
+https://www.youtube.com/watch?v=4mqyi8Vqk78
+
+Paqueterias usadas:
+
+https://pandas.pydata.org/docs/getting_started/install.html
+https://docs.conda.io/en/latest/miniconda.html
+https://docs.python.org/es/3/library/glob.html
+
+Configuracion VS
+https://www.cursosgis.com/como-configurar-visual-studio-code-para-trabajar-con-pandas/
+
+Páginas consultadas:
+https://stackoverflow.com/questions/64302419/what-are-all-of-the-exceptions-that-pandas-read-csv-throw 
