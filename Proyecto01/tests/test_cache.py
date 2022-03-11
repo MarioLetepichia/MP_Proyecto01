@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.insert(0, '/home/marius/Documents/Modelado&Programacion/GitHub_repo/MyP_2022-2/Proyecto01/src')
+sys.path.insert(0, '/home/marius/Documents/Modelado&Programacion/GitHub/MyP_2022-2/Proyecto01/src')
 import cache
 
 class TestCache(unittest.TestCase):

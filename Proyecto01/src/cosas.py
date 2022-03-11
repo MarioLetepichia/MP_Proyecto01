@@ -1,7 +1,7 @@
 import sys
 
 ###Archivo para hacer pruebas sobre python
-sys.path.insert(0, '/home/marius/Documents/Modelado&Programacion/GitHub_repo/MyP_2022-2/Proyecto01/tests')
+sys.path.insert(0, '/home/marius/Documents/Modelado&Programacion/GitHub/MyP_2022-2/Proyecto01/tests')
 
 import test_cache as ca
 import cache
