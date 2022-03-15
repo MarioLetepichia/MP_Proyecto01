@@ -1,3 +1,5 @@
-# MyP_2022-2
+# Proyecto01
 Modelado y Programación
-*Nota:* Crear una presentación para el repositorio
+*Nota:* Crear una presentación para el proyecto
+
+
