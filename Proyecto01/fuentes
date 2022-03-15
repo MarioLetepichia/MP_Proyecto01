@@ -25,3 +25,5 @@ https://www.cursosgis.com/como-configurar-visual-studio-code-para-trabajar-con-p
 
 Páginas consultadas:
 https://stackoverflow.com/questions/64302419/what-are-all-of-the-exceptions-that-pandas-read-csv-throw 
+https://stackoverflow.com/questions/69093667/read-csv-file-with-python-function
+https://pandas.pydata.org/docs/development/contributing_docstring.html
