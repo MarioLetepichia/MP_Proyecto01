@@ -1,5 +1,8 @@
 
-"""Modulo para hacer las llamadas al API y obtener la información"""
+"""
+Modulo para hacer las llamadas al API y obtener la información
+@autor Liahut Ley Celic Aislinn
+"""
 
 import requests 
 from dotenv import load_dotenv

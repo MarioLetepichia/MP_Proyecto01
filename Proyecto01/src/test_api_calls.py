@@ -1,4 +1,8 @@
-"""Modulo que hace pruebas unitarias del archivo Api_calls.py"""
+"""
+Modulo que hace pruebas unitarias del archivo Api_calls.py
+@autor Liahut Ley Celic Aislinn
+"""
+
 import unittest
 from Api_calls import request
 from Api_calls import requestGetJsons
