@@ -1,5 +1,16 @@
-## 	Sobre las instalaciones y prerequisitos  para que la llamada de la API funcione:
+#Proyecto 01 WEB SERVICE
 
+Proyecto 1 Modelado y Programación 
+---
+### Contribuidores
+
+-  Mario Letepichia Romero  (MarioLetepichia) 
+-  Celic Aislinn Liahut Ley  (Aislinn-Liahut) 
+-  Ivette González Mancera   (Ivette612)
+
+---
+
+## Instalaciones y prerequisitos:
 
 1. **Tener instalado requests en python**
 >   **python -m pip install requests**
@@ -15,6 +26,22 @@
  3. **Tener una API key en Open Weather y colocarla en archivo .env**
     La API key la puedes conseguir en https://openweathermap.org/api . Lo que debes hacer es sustituir "AQUI_VA_TU_API_KEY" por tu llave
  >   **API_KEY= AQUÍ_VA_TU_API_KEY**
+
+4. **Usar el package manager [pip](https://pip.pypa.io/en/stable/) para instalar pandas y Jupyter Notebook**
+
+```bash
+pip install pandas
+
+pip install jupyterlab
+```
+
+5. **Usar el package manager https://docs.conda.io/en/latest/miniconda.html** 
+
+```bash
+pip install pandas
+```
+
+## Instrucciones para compilar:
 
 ## Algunas observaciones 
 también Se añadieron las siguientes dos lineas especificamente en el archivo Api_calls.py :
