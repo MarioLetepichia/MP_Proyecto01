@@ -12,12 +12,12 @@ Lectura de base de datos con pandas
 import pandas as pd
 
 
-def read_file(dataset1): 
+def read_file(data): 
     """Read a csv file
 
     Parameters
     ----------
-    file_csv : dataset1
+    file_csv : data
       
     Returns
     -------
@@ -27,7 +27,7 @@ def read_file(dataset1):
    
    
     try:
-        df = pd.read_csv('dataset1.csv')
+        df = pd.read_csv(data)
 
         df_coodenadas = df[['origin','origin_latitude','origin_longitude', 'destination', 'destination_latitude','destination_longitude']]
 
@@ -41,6 +41,7 @@ def read_file(dataset1):
         print("Parse error")
     except Exception:
         print("Some other exception")
+    return input
 
 
 

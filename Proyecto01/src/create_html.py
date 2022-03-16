@@ -26,8 +26,8 @@ def create_html(list):
         
     """
 
-    df_output = pd.DataFrame(tickets_procesados)
-    df_output.to_html("'D:\\weather_data\\output.html")
+    df_output = pd.DataFrame(list)
+    df_output.to_html("output.html")
 
 
 

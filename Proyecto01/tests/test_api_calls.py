@@ -4,8 +4,8 @@ Modulo que hace pruebas unitarias del archivo Api_calls.py
 """
 
 import unittest
-from Api_calls import request
-from Api_calls import requestGetJsons
+from API_calls import request
+from API_calls import requestGetJsons
 
 class Api_calls(unittest.TestCase):
     """Clase que hereda de unittest.TestCase"""
