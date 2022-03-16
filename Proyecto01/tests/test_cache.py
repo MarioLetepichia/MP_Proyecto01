@@ -1,3 +1,7 @@
+"""
+Corre las pruebas unitarias necesarias para comprobar la correcta implementacion de 'cache.py'
+@author MarioLetepichia
+"""
 import unittest
 import sys
 sys.path.insert(0, '/home/marius/Documents/Modelado&Programacion/GitHub/MyP_2022-2/Proyecto01/src')
