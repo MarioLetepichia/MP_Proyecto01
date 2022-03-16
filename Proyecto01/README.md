@@ -13,7 +13,10 @@ Proyecto 1 Modelado y Programación
 ## Instalaciones y prerequisitos:
 
 1. **Tener instalado requests en python**
->   **python -m pip install requests**
+
+```bash
+python -m pip install requests
+```
  
  Lo anterior para poder realizar los requests a las APIs 
 
@@ -21,7 +24,9 @@ Proyecto 1 Modelado y Programación
 	 Esto ayuda a ocultar información que no quieres mostrar al subir tu proyecto,como contraseñas,direcciones etc. 
 	 Lo que nos permite dotenv hacer es mover esa información delicada en un archivo separado llamado .env
 
->   **pip install python-dotenv**
+```bash
+pip install python-dotenv
+```
 
  3. **Tener una API key en Open Weather y colocarla en archivo .env**
     La API key la puedes conseguir en https://openweathermap.org/api . Lo que debes hacer es sustituir "AQUI_VA_TU_API_KEY" por tu llave
