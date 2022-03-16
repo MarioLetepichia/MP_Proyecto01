@@ -1,7 +1,3 @@
-
-from typing import Type
-
-
 class Cache:
     def __init__(self):
         self.ca = {}
