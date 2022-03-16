@@ -28,7 +28,4 @@ for i in range(0,len(input)):
     tickets_procesados.append(ticket)
     print(i)
 
-#[clima unicamente]
-#################################
-
 create_html(tickets_procesados)
