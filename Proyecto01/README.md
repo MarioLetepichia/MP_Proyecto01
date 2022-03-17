@@ -1,5 +1,5 @@
 
-Proyecto 1 Modelado y Programación 
+Proyecto 1 Modelado y Programación - WEB SERVER
 ---
 ### Contribuidores
 
@@ -76,7 +76,9 @@ pytest
 ```
 
 ## Observaciones extras
-- Se añadieron las siguientes dos lineas especificamente en el archivo API_calls.py :
+- Los detalles del proyecto se encuentran en _Proyecto01.pdf_ ubicado en el directorio __docs__.
+
+- Se añadieron las siguientes dos lineas especificamente en el archivo *API_calls.py*:
 
 >  **from dotenv import load_dotenv**
 
