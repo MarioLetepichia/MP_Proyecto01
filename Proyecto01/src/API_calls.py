@@ -25,34 +25,5 @@ def requestGetJsons(lat,lon):
     response = request(lat,lon)
     return response.json()
 
-
-def make2RequestsAndGetWeather(lat1,lon1,lat2,lon2):
-    """ Realiza las dos llamadas al Api y obtiene e imprime la información que se necesita"""
-
-    responseOne = request(lat1,lon1)
-    responseTwo = request(lat2,lon2)
-
-    response = responseOne
-
-    for x in range(2):
-        data = response.json()
-        temperature = data['main']['temp'] 
-        description = data['weather'][0]['description']
-        print("Datos climatologicos de",data['name'],
-        "\ntemperatura:",temperature,
-        "\ndescripción:",description )
-        response = responseTwo
-
-
-def make1RequestAndGetWeather(lat1,lon1):
-    """ Realiza una llamadas al Api y obtiene e imprime la información que se necesita"""
-
-    response = request(lat1,lon1)
-    data = response.json()
-    temperature = data['main']['temp'] 
-    description = data['weather'][0]['description']
-    print("Datos climatologicos de",data['name'],
-    "\ntemperatura:",temperature,
-    "\ndescripción:",description )
         
 
