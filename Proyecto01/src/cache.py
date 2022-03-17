@@ -92,16 +92,12 @@ class Cache:
         ValueError
             Si 'iata' no tiene exactamente 3 caracteres
         """
-        #Revisamos si ambos argumentos cumplen con las condiciones
         if type(iata) != str or type(info) != dict:
             raise TypeError
-        #Ahora resivamos que el codigo IATA tenga exactamente 3 caracteres
         if len(iata) != 3 :
             raise ValueError
-        #Si todo salio bien agregamos el nuevo dato al diccionario
         self.ca.update({iata: info})
 
-    #La construccion del cache actualizado debera ser en otro modulo
     def updateCache(self, dicc):
         """Actualiza el cache
 
@@ -117,7 +113,6 @@ class Cache:
         """
         if type(dicc) != dict:
             raise TypeError
-        #Pudes agregar unas lineas que comprueben que toda key en 'dicc' este en 'ca' y que no haya extras
         self.ca.update(dicc)
 
     def clearCache(self):

@@ -4,6 +4,8 @@ Modulo que hace pruebas unitarias del archivo Api_calls.py
 """
 
 import unittest
+import sys
+sys.path.append('src')
 from API_calls import request
 from API_calls import requestGetJsons
 
@@ -21,4 +23,5 @@ class Api_calls(unittest.TestCase):
         id = requestGetJsons("19.39","-99.09")['sys']['id'] 
         assert  nombreCiudad == 'Iztacalco' and id == 47729 and nombrePais == 'MX'
 
- 
+if __name__ == '__main__':
+    unittest.main()
