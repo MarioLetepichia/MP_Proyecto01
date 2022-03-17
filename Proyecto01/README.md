@@ -1,4 +1,6 @@
-Proyecto 1 - WEB SERVICE
+#Proyecto 01 WEB SERVICE
+
+Proyecto 1 Modelado y Programación 
 ---
 ### Contribuidores
 
@@ -10,17 +12,21 @@ Proyecto 1 - WEB SERVICE
 
 ## Instalaciones y prerequisitos:
 
-1. **Instalar python**
+1. **Tener instalado python version 3 +**
+Para verificarlo usa 
+```bash
+python3 --version
+```
 
-2. **Instalar _request_ en python**
+2. **Tener instalado requests en python**
 
 ```bash
 python -m pip install requests
 ```
  
- Necesario para realizar llamadas al API
+ Lo anterior para poder realizar los requests a las APIs 
 
- 3. **Instalar dotenv.** 
+ 3. **Tener instalado dotenv.** 
 	 Esto ayuda a ocultar información que no quieres mostrar al subir tu proyecto,como contraseñas,direcciones etc. 
 	 Lo que nos permite dotenv hacer es mover esa información delicada en un archivo separado llamado .env
 
@@ -28,11 +34,11 @@ python -m pip install requests
 pip install python-dotenv
 ```
 
- 4. **Obtener una API key en Open Weather y colocarla en archivo .env**
+ 4. **Tener una API key en Open Weather y colocarla en archivo .env**
     La API key la puedes conseguir en https://openweathermap.org/api . Lo que debes hacer es sustituir "AQUI_VA_TU_API_KEY" por tu llave
  >   **API_KEY= AQUÍ_VA_TU_API_KEY**
 
-4. **Usar el package manager [pip](https://pip.pypa.io/en/stable/) para instalar pandas y Jupyter Notebook**
+5. **Usar el package manager [pip](https://pip.pypa.io/en/stable/) para instalar pandas y Jupyter Notebook**
 
 ```bash
 pip install pandas
@@ -46,7 +52,24 @@ pip install jupyterlab
 pip install pandas
 ```
 
-## Instrucciones para compilar:
+## Instrucciones para compilar y obtener la salida:
+1.Ya que realizaste los prerequisitos anteriores, colocate en el directorio del código fuente en este caso en Proyecto01 y ejecuta lo siguiente:
+
+```bash
+python3 src/main.py
+```
+2.Una vez hecho lo anterior abre la carpeta del codigo fuente Proyecto01 y te aparecera un nuevo archivo llamado output.html , seleccionalo y ponle en abrir con navegador.
+
+3.Contempla la salida 🙈🙉.
+
+
+## Instrucciones para correr pruebas:
+
+colocate en el directorio del codigo fuente y ejecuta el siguiente comando:
+
+```bash
+pytest
+```
 
 ## Algunas observaciones 
 también Se añadieron las siguientes dos lineas especificamente en el archivo Api_calls.py :
@@ -63,9 +86,4 @@ Esta linea indica que se quiere que haya un archivo .env  y ahi se crean las var
 Para comunicarnos con la computadora se usa la siguiente linea:
 >  **import os**
 
-**Nota:** Para ocultar el archivo .env que contiene información delicada, se crea un archivo llamado gitignore donde se colocan los archivos a ignorar y cuando se sube a github tales archivos no se suben. 
-
-Fuente:  https://www.youtube.com/watch?v=YdgIWTYQ69A
-
-Para documentarte de las APIs : https://www.dataquest.io/blog/python-api-tutorial/
 

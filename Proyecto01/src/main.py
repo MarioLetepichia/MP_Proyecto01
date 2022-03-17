@@ -12,9 +12,11 @@ cache = c.Cache()
 tickets_procesados = []
 
 def main():
+
     """Realiza el procesamiento de los tickets
-    
     """
+    print("generando el informe...")
+    
     for i in range(0,len(input)):
         ticket_entry = input[i]
         salida_ciudad = (ticket_entry[0], ticket_entry[1], ticket_entry[2])
@@ -29,9 +31,11 @@ def main():
             cache.addValue(llegada_ciudad[0], clima_llegada)
         ticket = (salida_ciudad[0], clima_salida['main']['temp'], clima_salida['weather'][0]['description'], llegada_ciudad[0], clima_llegada['main']['temp'], clima_llegada['weather'][0]['description'])
         tickets_procesados.append(ticket)
-        print(i)
+        
 
     html.create_html(tickets_procesados)
 
 if __name__ == "__main__":
     main()
+    print("Ya estan listos los tickets!! :), abre el archivo output.html en el navegador 🤓")
+   
