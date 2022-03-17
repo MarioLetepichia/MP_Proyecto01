@@ -26,8 +26,12 @@ def create_html(list):
         
     """
 
-    df_output = pd.DataFrame(list)
-    df_output.to_html("output.html")
+    df_output = pd.DataFrame(list)     
+    df_columns_names = df_output.set_axis(['|ORIGIN|','|TEMPERATURE ORIGIN|', '|CLOUD COVER ORIGIN|', '|DESTINATION|', '|TEMPERATURE DESTINATION|', '|CLOUD COVER DESTINATION|'], axis='columns') 
+    df_final = df_columns_names.style.set_caption("TICKETS PROCESADOS")
+    df_out = df_final.to_html("docs/output.html")
+    
+    return df_out
 
 
 

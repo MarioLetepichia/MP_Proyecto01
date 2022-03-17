@@ -2,9 +2,6 @@
 # coding: utf-8
 
 # In[1]:
-
-
-
 """
 Lectura de base de datos con pandas
 @autor Ivette612

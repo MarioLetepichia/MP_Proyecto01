@@ -20,8 +20,7 @@ class Api_calls(unittest.TestCase):
         """test que verifica que se accede a la información correcta en los jsons"""
         nombreCiudad = requestGetJsons("19.39","-99.09")['name'] 
         nombrePais = requestGetJsons("19.39","-99.09")['sys']['country'] 
-        id = requestGetJsons("19.39","-99.09")['sys']['id'] 
-        assert  nombreCiudad == 'Iztacalco' and id == 47729 and nombrePais == 'MX'
+        assert  nombreCiudad == 'Iztacalco' and nombrePais == 'MX'
 
 if __name__ == '__main__':
     unittest.main()

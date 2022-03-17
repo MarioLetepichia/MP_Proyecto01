@@ -2,7 +2,6 @@
 Corre las pruebas unitarias necesarias para comprobar la correcta implementacion de 'cache.py'
 @author MarioLetepichia
 """
-# import functools 
 import unittest
 import sys
 sys.path.append('src')

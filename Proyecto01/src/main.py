@@ -6,6 +6,7 @@ import read_csv as r
 import create_html as html
 import cache as c
 import API_calls as api
+import webbrowser as web
 
 input = r.read_file('docs/dataset1.csv')
 cache = c.Cache()
@@ -15,7 +16,7 @@ def main():
 
     """Realiza el procesamiento de los tickets
     """
-    print("generando el informe...")
+    print("Generando el informe...")
     
     for i in range(0,len(input)):
         ticket_entry = input[i]
@@ -34,8 +35,9 @@ def main():
         
 
     html.create_html(tickets_procesados)
+    web.open_new("docs/output.html")
 
 if __name__ == "__main__":
     main()
-    print("Ya estan listos los tickets!! :), abre el archivo output.html en el navegador 🤓")
+    print("Ya estan listos los tickets!! :), abriendo el archivo output.html en el navegador 🤓")
    
